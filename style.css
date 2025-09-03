@@ -1,5 +1,5 @@
 body {
-    background-color: #eff9fa;
+    /*background-color: #eff9fa;*/
     font-family: "Segoe UI" sans-serif;
 }
 
@@ -37,4 +37,48 @@ main {
 .video {
     width: 800px;
     height: 490px;
+    border: none;
+}
+
+.ed__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ed__table th, .ed__table td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 32px;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__control {
+    width: 100%;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+}
+
+.control--text {
+    width: 70%;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #000000;
 }
